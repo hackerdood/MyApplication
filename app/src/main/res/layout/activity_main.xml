@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffaddde"
     tools:context=".MainActivity">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginleft="5sp"
+
         android:orientation="vertical">
 
 
         <GridLayout
             android:id="@+id/grid1"
             android:layout_alignParentEnd="true"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10sp"
@@ -28,6 +28,8 @@
             >
 
             <Button
+                android:id="@+id/g0r0c0"
+                android:text=""
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -37,6 +39,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r0c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -46,6 +49,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r0c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -55,6 +59,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r0c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -64,6 +69,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r1c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -73,6 +79,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r1c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -82,6 +89,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r1c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -91,6 +99,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r1c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -100,6 +109,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r2c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -109,6 +119,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r2c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -118,6 +129,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r2c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -127,6 +139,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r2c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -136,6 +149,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r3c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -145,6 +159,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r3c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -154,6 +169,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r3c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -163,6 +179,7 @@
                 android:insetBottom="0dp" />
 
             <Button
+                android:id="@+id/g0r3c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:layout_rowWeight="1"
@@ -187,6 +204,7 @@
            
             >
             <Button
+                android:id="@+id/g1r0c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -197,6 +215,7 @@
                 />
 
             <Button
+                android:id="@+id/g1r0c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -206,6 +225,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g1r0c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -215,44 +235,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-            <Button
+                android:id="@+id/g1r0c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -263,6 +246,7 @@
                 />
 
             <Button
+                android:id="@+id/g1r1c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -273,6 +257,7 @@
                 />
 
             <Button
+                android:id="@+id/g1r1c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -282,6 +267,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g1r1c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -291,6 +277,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g1r1c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -301,6 +288,7 @@
                 />
 
             <Button
+                android:id="@+id/g1r2c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -311,6 +299,7 @@
                 />
 
             <Button
+                android:id="@+id/g1r2c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -320,6 +309,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g1r2c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -329,6 +319,49 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g1r2c3"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+
+            <Button
+                android:id="@+id/g1r3c0"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+
+            <Button
+                android:id="@+id/g1r3c1"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:id="@+id/g1r3c2"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:id="@+id/g1r3c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -358,6 +391,7 @@
             android:layout_marginRight="150sp"
             >
             <Button
+                android:id="@+id/g2r0c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -368,6 +402,7 @@
                 />
 
             <Button
+                android:id="@+id/g2r0c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -377,6 +412,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g2r0c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -386,44 +422,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-            <Button
+                android:id="@+id/g2r0c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -434,6 +433,7 @@
                 />
 
             <Button
+                android:id="@+id/g2r1c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -444,6 +444,7 @@
                 />
 
             <Button
+                android:id="@+id/g2r1c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -453,6 +454,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g2r1c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -462,6 +464,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g2r1c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -472,6 +475,7 @@
                 />
 
             <Button
+                android:id="@+id/g2r2c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -482,6 +486,7 @@
                 />
 
             <Button
+                android:id="@+id/g2r2c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -491,6 +496,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g2r2c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -500,6 +506,49 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g2r2c3"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+
+            <Button
+                android:id="@+id/g2r3c0"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+
+            <Button
+                android:id="@+id/g2r3c1"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:id="@+id/g2r3c2"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:id="@+id/g2r3c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -525,6 +574,7 @@
             android:layout_marginRight="210sp"
             >
             <Button
+                android:id="@+id/g3r0c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -535,6 +585,7 @@
                 />
 
             <Button
+                android:id="@+id/g3r0c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -544,6 +595,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g3r0c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -553,44 +605,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-            <Button
-                android:layout_width="35sp"
-                android:layout_height="35sp"
-                android:insetTop="0dp"
-                android:insetBottom="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="5sp"
-                />
-            <Button
+                android:id="@+id/g3r0c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -601,6 +616,7 @@
                 />
 
             <Button
+                android:id="@+id/g3r1c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -611,6 +627,7 @@
                 />
 
             <Button
+                android:id="@+id/g3r1c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -620,6 +637,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g3r1c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -629,6 +647,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g3r1c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -639,6 +658,7 @@
                 />
 
             <Button
+                android:id="@+id/g3r2c0"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -649,6 +669,7 @@
                 />
 
             <Button
+                android:id="@+id/g3r2c1"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -658,6 +679,7 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g3r2c2"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
@@ -667,6 +689,49 @@
                 android:layout_margin="5sp"
                 />
             <Button
+                android:id="@+id/g3r2c3"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+
+            <Button
+                android:id="@+id/g3r3c0"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+
+            <Button
+                android:id="@+id/g3r3c1"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:id="@+id/g3r3c2"
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="5sp"
+                />
+            <Button
+                android:id="@+id/g3r3c3"
                 android:layout_width="35sp"
                 android:layout_height="35sp"
                 android:insetTop="0dp"
