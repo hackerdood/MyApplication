@@ -14,6 +14,8 @@
         android:orientation="vertical">
 
 
+
+
         <GridLayout
             android:id="@+id/grid1"
             android:layout_alignParentEnd="true"
@@ -742,6 +744,14 @@
                 />
 
         </GridLayout>
+
+        <Button
+            android:id="@+id/resetGame"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:text="Reset"
+            android:backgroundTint="@color/black"
+            android:layout_margin="40sp"/>
 
     </RelativeLayout>
 </ScrollView>
